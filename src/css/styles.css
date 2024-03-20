@@ -1,3 +1,5 @@
 h1{
     text-align: center;
+    text-transform: capitalize;
+    font-size:50px;
 }
