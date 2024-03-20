@@ -1,13 +1,50 @@
-h1{
+h1 {
     text-align: center;
     text-transform: capitalize;
-    font-size:50px;
+    font-size: 50px;
 }
 
-.titulo-azul{
+.titulo-azul {
     color: blue;
 }
-.parrafo{
-    color:green;
+
+.parrafo {
+    color: green;
+
+}
+
+body {
+    text-align: center;
+}
+
+#coro{
+    color:darkorange;
+    font-size: larger;
+}
+.amarillo{
+    color:rgb(193, 161, 31)
+}
+.azul{
+    color:blue
+}
+.rojo{
+    color:red
+}
+button{
+    width:140px; 
+    height:50px;
+    background-color: aqua;  
     
+}
+button:hover{
+    width:140px; 
+    height:50px;
+    border-color: red;
+    background-color: pink;
+    color: darkred;
+}
+button:active{
+    width:140px; 
+    height:50px;
+    background-color: yellow;  
 }
