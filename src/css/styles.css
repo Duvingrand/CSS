@@ -3,3 +3,11 @@ h1{
     text-transform: capitalize;
     font-size:50px;
 }
+
+.titulo-azul{
+    color: blue;
+}
+.parrafo{
+    color:green;
+    
+}
