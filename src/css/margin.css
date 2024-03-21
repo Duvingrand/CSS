@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    border: 20px solid black;
+    height: 100vh;
+    display:block;
+}
+
+img {
+    border: 1px solid red;
+    margin: 5px;
+}
