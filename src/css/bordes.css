@@ -1,4 +1,5 @@
 #parrafo-prueba{
-    background-color: black;
+    background: linear-gradient(to right, blue, rgb(76, 76, 167));
     color: aliceblue;
+    border: 20px double red;
 }
