@@ -4,8 +4,9 @@
     border: 30px dashed red;
     /*border-right-width: 10px ;
     border-top-width: 50px;
-    border-left-width: 20px;*/
-    border-width: 50px 40px 30px 10px;
+    border-left-width: 20px;
+    border-width: 50px 40px 30px 10px;*/
+    border-radius: 30px 5px;
 }
 /*solid: Un borde sólido.
 dashed: Un borde compuesto de líneas discontinuas.
@@ -17,3 +18,43 @@ inset: Un borde 3D que parece estar incrustado en la superficie.
 outset: Un borde 3D que parece estar sobresaliendo de la superficie.
 none: No se muestra ningún borde.
 hidden: Similar a none, pero reserva el espacio para el borde.*/
+#img1, #img2, #img3, #img4, #img5{
+    width: 170px;
+    height: 170px;
+    
+}
+#img1{
+    border: 10px dashed red
+}
+
+#img2{
+    border: 10px dotted green
+}
+
+#img3{
+    border: 10px double white
+}
+
+#img4{
+    border: 10px groove orange
+}
+
+#img5{
+    border: 10px outset black;
+    border-top-width: 20px;
+    border-top-style: double;
+    border-top-color: red;
+    border-left-width: 30px;
+    border-left-style:groove;
+    border-left-color:green;
+    border-bottom-width: 50px;
+    border-bottom-style: dotted;
+    border-bottom-color:white
+}
+
+figure{
+    padding:4px;
+    background: linear-gradient(to right, blue, black);
+    color:white
+
+}
