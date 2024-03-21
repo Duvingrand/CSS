@@ -1,5 +1,19 @@
 #parrafo-prueba{
     background: linear-gradient(to right, blue, rgb(76, 76, 167));
     color: aliceblue;
-    border: 20px double red;
+    border: 30px dashed red;
+    /*border-right-width: 10px ;
+    border-top-width: 50px;
+    border-left-width: 20px;*/
+    border-width: 50px 40px 30px 10px;
 }
+/*solid: Un borde sólido.
+dashed: Un borde compuesto de líneas discontinuas.
+dotted: Un borde compuesto de puntos.
+double: Un borde compuesto por dos líneas sólidas.
+groove: Un borde 3D tallado en la superficie.
+ridge: Un borde 3D con un efecto de relieve.
+inset: Un borde 3D que parece estar incrustado en la superficie.
+outset: Un borde 3D que parece estar sobresaliendo de la superficie.
+none: No se muestra ningún borde.
+hidden: Similar a none, pero reserva el espacio para el borde.*/
