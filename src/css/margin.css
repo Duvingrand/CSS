@@ -6,8 +6,11 @@
 
 section {
     border: 20px solid black;
-    height: 100vh;
+    height: auto;
     display:block;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 img {
